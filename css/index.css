@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+}
+
+/* nav section */
+
+.main-div {
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    position: absolute;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 0px 0px;
+}
+nav > image {
+    margin-left: 40px;
+
+}
+
+.nav-items {
+    display: flex;
+}
+
+h5 {
+    padding: 0px 25px;
+    font-size: 20px;
+    color:#444d97;
+}
+
+.signin-btn {
+    color: white;
+    border-radius: 25px;
+    border: none;
+    height: 26px;
+    width: 80px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+}
+
+/* intro-section */
+.intro-section {
+    display: flex;
+}
+
+.left-section h1 {
+    color:#444d97;
+    padding: 0px 18px 29px 110px;
+    font-weight: bolder;
+    font-size: 75px;
+    margin-top: 20%;
+}
+
+h4 {
+    color: #b6b8c7;
+    font-size: 20px;
+    margin: 15px;
+    font-weight: 400;
+    margin-left: 113px;
+    font-family:sans-serif;
+    margin-right: -35px;
+    padding:0px 20px 30px 10px ;
+}
+
+.learn-more-btn {
+
+    color: white;
+    border-radius: 25px;
+    height: 48px;
+    padding: 0px 20px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+    margin-left: 119px;
+    width: 253px;
+    border: none;
+    font-size: 20px;
+}
+
+.imgs-div  {
+    margin-right: 2%;
+    display: flex;
+}
+
+
+.vector-img{
+margin-top: 40%;
+width: 100px;
+}
+
+.vector-dot{
+    margin-top:33%;
+
+}
