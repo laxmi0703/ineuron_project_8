@@ -1,6 +1,65 @@
 * {
     margin: 0px;
 }
+@media screen and (max-width:1230px) {
+    .main-div .nav-items {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 40px;
+        margin: 0px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    nav>img {
+        width: fit-content;
+        margin-left: 42%;
+    }
+
+    .signin-btn {
+        margin-left: 45%;
+
+    }
+
+    .intro-section {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .left-section {
+        margin-top: -20%;
+    }
+
+    .left-section:first-child {
+        font-size: 5px;
+    }
+
+    .left-section .learn-more-btn {
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+
+    }
+
+    .imgs-div .intro-img {
+        width: 450px;
+        height: 350px;
+
+    }
+  
+}
 
 /* nav section */
 
@@ -9,7 +68,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
-    position: absolute;
+    position: fixed;
 
 }
 
